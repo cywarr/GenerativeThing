@@ -239,9 +239,9 @@ let tris = [
 })
 
 function runSequence() {
-    new TWEEN.Tween({ val: 0 }).to({ val: 1 }, 1000)
-        .delay(4000)
-        .easing(TWEEN.Easing.Exponential.InOut)
+    new TWEEN.Tween({ val: 0 }).to({ val: 1 }, 2000)
+        .delay(3000)
+        .easing(TWEEN.Easing.Exponential.Out)
         .onUpdate(val => {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             tris.forEach(tri => {
