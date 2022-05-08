@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
 body {
     margin: 0;
@@ -8,6 +8,7 @@ body {
     font-size: 13px;
     line-height: 24px;
     overscroll-behavior: none;
+    overflow: hidden;
 }
 
 a {
@@ -92,10 +93,21 @@ select {
     padding: 10px;
 }
 
-#TetraFlow {
-    margin: 20px;
-    font-family: 'Megrim', cursive;
-    font-size: 36pt;
-    color: rgb(0, 200, 250);
-    display: none;
+#generative {
+    --glow: #ffe;
+    bottom: 2vh;
+    margin: 1vh;
+    font-family: 'Michroma', sans-serif;
+    font-size: 4vh;
+    font-weight: 700;
+    color: #304050;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 2vh;
+    text-shadow: 0 0 0.125vh var(--glow), 0 0 0.125vh var(--glow), 0 0 0.25vh var(--glow), 0 0 0.5vh var(--glow), 0 0 0.75vh var(--glow);
+}
+
+#rchar{
+    font-size: 2vh;
+    font-weight: 400;
 }

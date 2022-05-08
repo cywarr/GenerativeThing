@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Megrim&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Michroma&display=swap";
 body {
   color: #fff;
   overscroll-behavior: none;
@@ -7,6 +7,7 @@ body {
   font-family: monospace;
   font-size: 13px;
   line-height: 24px;
+  overflow: hidden;
 }
 
 a {
@@ -79,12 +80,23 @@ a, button, input, select {
   padding: 10px;
 }
 
-#TetraFlow {
-  color: #00c8fa;
-  margin: 20px;
-  font-family: Megrim, cursive;
-  font-size: 36pt;
-  display: none;
+#generative {
+  --glow: #ffe;
+  color: #304050;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 2vh;
+  text-shadow: 0 0 .125vh var(--glow), 0 0 .125vh var(--glow), 0 0 .25vh var(--glow), 0 0 .5vh var(--glow), 0 0 .75vh var(--glow);
+  margin: 1vh;
+  font-family: Michroma, sans-serif;
+  font-size: 4vh;
+  font-weight: 700;
+  bottom: 2vh;
+}
+
+#rchar {
+  font-size: 2vh;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=index.47ca9330.css.map */
